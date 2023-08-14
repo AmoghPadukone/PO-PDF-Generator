@@ -126,14 +126,12 @@ const DownloadButton = (props) => {
         ],
       },
       margin: [40, 20, 10, 10],
+      fontSize: 12,
       // alignment: "center",
     };
   };
 
   function line() {
-    //Usually one would use a canvas to draw the line
-    //{canvas: [{ type: 'line', x1: 0, y1: 5, x2: 595-2*40, y2: 5, lineWidth: 2 }],margin: [ 0, 10, 0, 0 ]},
-    //For some reason, that's not working and the layout just breaks
     return {
       table: {
         headerRows: 1,
@@ -197,20 +195,24 @@ const DownloadButton = (props) => {
           },
         ],
         margin: [15, 10, -30, 0],
+        fontSize: 10,
       },
       {
         text: `Program name - ${props.details.programName}`,
         bold: true,
+        fontSize: 10,
         margin: [15, 4, 0, 0],
       },
       {
         text: `Category - ${props.details.category}`,
         bold: true,
+        fontSize: 10,
         margin: [15, 4, 0, 0],
       },
       {
         text: `Vendor Name ${props.details.vendorName}`,
         bold: true,
+        fontSize: 10,
         margin: [15, 4, 0, 0],
       },
       {
@@ -220,16 +222,19 @@ const DownloadButton = (props) => {
         //   { text: `${props.details.contactPerson}` },
         // ],
         bold: true,
+        fontSize: 10,
         margin: [15, 4, 0, 0],
       },
       {
         text: `Phone - ${props.details.phone}`,
         bold: true,
+        fontSize: 10,
         margin: [15, 4, 0, 0],
       },
       {
         text: `GST No - ${props.details.gstNo}`,
         bold: true,
+        fontSize: 10,
         margin: [15, 4, 0, 0],
       },
 
@@ -260,22 +265,26 @@ const DownloadButton = (props) => {
         text: `Delivery Date - ${props.secondaryDetails.deliveryDate}`,
         margin: [15, 4, 0, 0],
         bold: "true",
+        fontSize: 10,
       },
       {
         text: `Delivery Address - ${props.secondaryDetails.deliveryAddress}`,
         margin: [15, 4, 0, 0],
         bold: "true",
         noWrap: true,
+        fontSize: 10,
       },
       {
         text: `Payment Terms - ${props.secondaryDetails.paymentTerms}`,
         margin: [15, 4, 0, 0],
         bold: "true",
+        fontSize: 10,
       },
       {
         text: `Remarks - ${props.secondaryDetails.remark}`,
         margin: [15, 4, 0, 0],
         bold: "true",
+        fontSize: 10,
       },
       {
         image:
@@ -418,6 +427,7 @@ const DownloadButton = (props) => {
       },
       defaultStyle: {
         font: "Calibri",
+        fontSize: 10,
       },
     },
   };
@@ -438,13 +448,6 @@ const DownloadButton = (props) => {
         >
           Download PDF
         </ActionButtons>
-        <button
-          onClick={() => {
-            console.log(Object.keys(props.tableDetails[0]));
-          }}
-        >
-          Printttttt mam
-        </button>
       </Box>
     </>
   );
