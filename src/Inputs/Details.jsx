@@ -36,7 +36,7 @@ const Details = (props) => {
       [e.target.name]: e.target.value,
     };
     setMakeDetail(changeDetails);
-    props.details(makeDetail);
+    props.details(changeDetails);
   };
 
   const onDeliveryDateChange = (date) => {

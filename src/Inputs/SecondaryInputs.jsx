@@ -18,7 +18,7 @@ const SecondaryInputs = (props) => {
       [e.target.name]: e.target.value,
     };
     setMakeSecondayDetails(changeSecondayDetails);
-    props.secondaryDetails(makeSecondayDetails);
+    props.secondaryDetails(changeSecondayDetails);
   };
   return (
     <>
