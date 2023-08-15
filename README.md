@@ -21,7 +21,8 @@ Streamline your company's purchase order creation process with this open-source 
 - Enhance efficiency and consistency in your company's PO creation process.
 
 ## Demo
-![final](https://github.com/AmoghPadukone/PO-PDF-Generator/assets/35802992/e6d4f02d-4ecf-4fa6-b836-e101f666a753)
+![Demo Gif](https://github.com/AmoghPadukone/PO-PDF-Generator/assets/35802992/7a904781-7d28-4eb6-9d7b-60550e5e9eeb)
+
 
 
 
