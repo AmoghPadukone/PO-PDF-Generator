@@ -230,7 +230,7 @@ const DownloadButton = (props) => {
         margin: [15, 4, 0, 0],
       },
       {
-        text: `Vendor Name ${props.details.vendorName}`,
+        text: `Vendor Name - ${props.details.vendorName}`,
         bold: true,
         fontSize: 10,
         margin: [15, 4, 0, 0],
