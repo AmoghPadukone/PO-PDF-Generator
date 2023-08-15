@@ -28,6 +28,7 @@ const InputSection = (props) => {
           border: "2px solid #000",
           padding: "2%  5%",
           paddingTop: "5%",
+          marginBottom: "5%",
         }}
       >
         <Details details={receivedDetails} />
@@ -39,6 +40,7 @@ const InputSection = (props) => {
             display: "flex",
             justifyContent: "center",
             gap: "1rem",
+            marginTop: "3% ",
           }}
         >
           <DownloadButton
@@ -46,7 +48,7 @@ const InputSection = (props) => {
             tableDetails={tabledetails}
             secondaryDetails={secondaryDetails}
           />
-          <EmailButton />
+          {/* <EmailButton /> */}
         </Box>
       </Box>
     </>

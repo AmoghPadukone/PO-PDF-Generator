@@ -10,7 +10,26 @@ pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 import React, { useState } from "react";
 const ActionButtons = styled(Button)`
-  padding: 10px;
+  padding: 10px 40px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  &:hover {
+    // box-shadow: 5px 5px rgb(0, 0, 0);
+    box-shadow: none;
+    background-color: #f2f2f2;
+    border: 1px solid #000;
+    font-size: 16px;
+  }
+  // &:active {
+  //   background-color: #3785;
+  //   box-shadow: none;
+  //   transform: translate(5px, 5px);
+  //   //   transform: scale(.9),
+  //   transition: ease 300s;
+  //   border: 2px solid #000;
+  // }
 `;
 
 // console.log("Details: ", props.details);
@@ -126,7 +145,8 @@ const DownloadButton = (props) => {
         ],
       },
       margin: [40, 20, 10, 10],
-      fontSize: 12,
+      fontSize: 10,
+
       // alignment: "center",
     };
   };
@@ -446,7 +466,7 @@ const DownloadButton = (props) => {
           endIcon={<DownloadIcon />}
           onClick={handleDownload}
         >
-          Download PDF
+          Download PO PDF
         </ActionButtons>
       </Box>
     </>

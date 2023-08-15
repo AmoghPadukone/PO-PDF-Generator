@@ -7,7 +7,8 @@ const Title = (props) => {
         fontSize: "60px",
         textAlign: "center",
         fontWeight: "600",
-        letterSpacing: ".2ch",
+        letterSpacing: ".1ch",
+        margin: "1rem",
       }}
     >
       PO Generator

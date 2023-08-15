@@ -157,7 +157,7 @@ export default function Table(props) {
       width: 80,
       align: "left",
       headerAlign: "left",
-      editable: true,
+      editable: false,
       renderCell: (params) =>
         params.api.getRowIndexRelativeToVisibleRows(params.row.id) + 1,
     },

@@ -155,6 +155,7 @@ const Details = (props) => {
             id="phone"
             label="Phone"
             variant="outlined"
+            placeholder="+91 XXXXX XXXXX"
             fullWidth
           ></TextField>
           {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
